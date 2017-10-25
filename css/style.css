@@ -4469,6 +4469,7 @@ font-family: 'Open Sans', sans-serif;
   -o-transition: .3s all;
   transition: .3s all;
   text-align: center;
+  height: 98.5%;
 }
 #portfolio-work .block .portfolio-contant .position-center {
   position: absolute;
@@ -4534,7 +4535,7 @@ footer .footer2 ul li a:hover {
 .img-responsive,.thumbnail img{
   display:block;
   max-width:100%
-  ;height:auto
+  ;height:auto;
 }
 .paratext {
   padding-top: 6%;
@@ -4561,7 +4562,7 @@ width: 25%;
   padding-right:15px;
   padding-left:15px;
   float:left;
-  padding-bottom: 20px;
+margin-bottom: 25px;
 
 
 
@@ -4826,6 +4827,7 @@ padding-left: 10%;
   -o-transition: .3s all;
   transition: .3s all;
   text-align: center;
+  height: 98.5%;
 }
 #portfolio-work2 .block .portfolio-contant .position-center {
   position: absolute;
@@ -4896,8 +4898,10 @@ transition: .15s all;
 }
 .container2:hover .overlay2 {
 
-width: 100%;
-  opacity: .8
+width: 85%;
+  opacity: .8;
+  text-align: center;
+  margin-left: 8%;
 
 }
 .overlay23{
@@ -4923,8 +4927,32 @@ width: 100%;
   -ms-transform: translate(-50%, -50%);
 }
 .container23:hover .overlay23 {
-width: 100%;
+width: 85%;
   opacity: .8;
   left:0;
+  margin-left: 8%;
 
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    font-size: 130%;
+}
+
+#panel {
+    padding-bottom: 50px;
+    display: none;
+    height: 120%;
+
+
+}
+
+#flip:hover {
+  cursor:pointer;
+  opacity: .8
+}
+#flip{
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
